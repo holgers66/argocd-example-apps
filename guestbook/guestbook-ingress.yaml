@@ -19,7 +19,7 @@ spec:
           service:
             name: guestbook-ui
             port:
-              number: 80
+              number: 443
   tls:
   - hosts:
     - guestbook.k8s-demo.win
