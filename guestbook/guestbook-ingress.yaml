@@ -18,8 +18,7 @@ spec:
         backend:
           service:
             name: guestbook-ui
-            port:
-              name: https
+            port: 80
   tls:
   - hosts:
     - guestbook.k8s-demo.win
